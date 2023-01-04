@@ -1,0 +1,8 @@
+.page {
+  background-color: #2a2c2f;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(./fonts/Inter/inter.css);
+}
