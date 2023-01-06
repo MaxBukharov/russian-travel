@@ -1,0 +1,12 @@
+.cover {
+  height: 720px;
+  width: 1184px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 92px 48px;
+  background-image: url(../../images/__background_baikal.png);
+  position: relative;
+  align-self: center;
+}

@@ -1,0 +1,11 @@
+.footer {
+  min-width: 1184px;
+  max-height: 18px;
+  margin: 0 48px 24px;
+  /* display: grid;
+  grid-template-columns: repeat(5, 1f) 497px 186px;
+  grid-template-areas: 'link link link link link . copyright';
+  column-gap: 18px; */
+  display: flex;
+  justify-content: space-between;
+}
