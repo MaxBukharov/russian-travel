@@ -7,3 +7,6 @@
   top: 0px;
   right: 0px;
 }
+.cover__overlay:hover {
+  transition: opacity 1s ease;
+}
