@@ -1,7 +1,6 @@
 .cover__image {
   width: 100%;
   background-image: url(../../../images/__background_baikal.png);
-  background-size: cover;
   position: relative;
   min-height: 740px;
   display: flex;
