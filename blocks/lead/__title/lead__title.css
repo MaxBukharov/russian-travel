@@ -3,10 +3,42 @@
   font-family: 'Inter';
   width: 720px;
   height: 200px;
-  margin: 0 280px 0;
+  margin: 0 132px 32px;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__title {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .lead__title {
+    margin: 48px 24px 16px;
+    line-height: 44px;
+    width: 288px;
+    height: 88px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .lead__title {
+    margin: 48px 16px 16;
+    font-size: 40px;
+    line-height: 44px;
+    width: 288px;
+    height: 88px;
+  }
 }
