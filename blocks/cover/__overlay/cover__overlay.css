@@ -6,7 +6,10 @@
   position: absolute;
   top: 0px;
   right: 0px;
+  transition: opacity 1s ease;
 }
+
 .cover__overlay:hover {
+  opacity: 80%;
   transition: opacity 1s ease;
 }
