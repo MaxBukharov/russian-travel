@@ -24,10 +24,10 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 704px) {
   .places {
-    width: calc(100% - 16px * 2);
-    margin: 0 16px 66px;
+    width: 100%;
+    margin: 0 0 66px;
     row-gap: 50px;
   }
 }

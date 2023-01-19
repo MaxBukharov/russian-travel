@@ -14,23 +14,23 @@
       <header class="header">
         <img class="header__logo" src="./images/__logo.svg" alt="Логотип Россия" />
         <ul class="header__lang-links">
-          <li><a class="header__lang-link" id="active" href="#">Ru</a></li>
-          <li><a class="header__lang-link" href="#">En</a></li>
+          <li><a class="header__lang-link header__lang-link_active link" href="#">Ru</a></li>
+          <li><a class="header__lang-link link" href="#">En</a></li>
         </ul>
       </header>
       <main class="content">
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-          <div class="lead__map">
+          <figure class="lead__map">
             <img
               class="lead__map-image"
               src="./images/__image.png"
               alt="Изображение России из
           окна поезда"
             />
-            <p class="lead__map-sign">Ваша полка &mdash; верхняя</p>
-          </div>
+            <figcaption class="lead__map-sign">Ваша полка &mdash; верхняя</figcaption>
+          </figure>
         </section>
         <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -45,18 +45,22 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li class="intro__list-item"><span class="text-bold">Часовых поясов</span> 11</li>
             <li class="intro__list-item">
-              <span class="text-bold">Объектов природного наследия ЮНЕСКО </span>12
+              <span class="intro__list-item_bold">Часовых поясов</span> 11
             </li>
             <li class="intro__list-item">
-              <span class="text-bold">Объектов культурного наследия ЮНЕСКО</span>
+              <span class="intro__list-item_bold">Объектов природного наследия ЮНЕСКО </span>12
+            </li>
+            <li class="intro__list-item">
+              <span class="intro__list-item_bold">Объектов культурного наследия ЮНЕСКО</span>
               16
             </li>
             <li class="intro__list-item">
-              <span class="text-bold">Природных заповедников</span> 105
+              <span class="intro__list-item_bold">Природных заповедников</span> 105
             </li>
-            <li class="intro__list-item"><span class="text-bold">Аэропортов</span> 241</li>
+            <li class="intro__list-item">
+              <span class="intro__list-item_bold">Аэропортов</span> 241
+            </li>
           </ul>
         </section>
         <section class="photo-grid">
@@ -66,33 +70,44 @@
               src="./images/photo-grid-train.jpg"
               alt="Фото из поезда"
             />
+
             <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Горы" />
+
             <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Туман" />
+
             <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Сочи" />
+
             <img
               class="photo-grid__item"
               src="./images/photo-grid-arisa.jpg"
               alt="Машина на льду"
             />
+
             <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Байкал" />
+
             <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" />
+
             <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Берег" />
+
             <img
               class="photo-grid__item"
               src="./images/photo-grid-kamchatka-1.jpg"
               alt="Камчатка"
             />
+
             <img
               class="photo-grid__item"
               src="./images/photo-grid-kamchatka-2.jpg"
               alt="Еще Камчатка"
             />
+
             <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Еще Байкал" />
+
             <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Ергаки" />
           </div>
         </section>
         <section class="places">
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <img
               class="place__image"
@@ -118,7 +133,7 @@
                 исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
               </p>
             </div>
-          </div>
+          </article>
           <div class="place">
             <h2 class="place__title">Кольский</h2>
             <img
@@ -221,46 +236,48 @@
           </div>
         </section>
         <section class="cover">
-          <div class="cover__image">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <h3 class="cover__subtitle">
+          <a
+            class="cover__link"
+            href="https://stampsy.com/na-elektrichkakh-do-baikala"
+            target="_blank"
+          >
+            <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+            <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
               электричках.
-            </h3>
-            <a
-              class="cover__link"
-              href="https://stampsy.com/na-elektrichkakh-do-baikala"
-              target="_blank"
-            >
-              <div class="cover__overlay"></div>
-            </a>
-          </div>
+            </p>
+            <div class="cover__overlay"></div>
+          </a>
         </section>
       </main>
       <footer class="footer">
-        <ul class="footer__links">
-          <li>
-            <a class="footer__link link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-          </li>
-          <li>
-            <a class="footer__link link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-          </li>
-          <li>
-            <a class="footer__link link" href="https://rasp.yandex.ru" target="_blank"
-              >Расписание</a
-            >
-          </li>
-          <li>
-            <a class="footer__link link" href="https://calendar.yandex.ru" target="_blank"
-              >Календарь</a
-            >
-          </li>
-          <li>
-            <a class="footer__link link" href="https://travel.yandex.ru" target="_blank"
-              >Путешествия</a
-            >
-          </li>
-        </ul>
+        <nav>
+          <ul class="footer__links">
+            <li>
+              <a class="footer__link link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+            </li>
+            <li>
+              <a class="footer__link link" href="https://yandex.ru/pogoda" target="_blank"
+                >Погода</a
+              >
+            </li>
+            <li>
+              <a class="footer__link link" href="https://rasp.yandex.ru" target="_blank"
+                >Расписание</a
+              >
+            </li>
+            <li>
+              <a class="footer__link link" href="https://calendar.yandex.ru" target="_blank"
+                >Календарь</a
+              >
+            </li>
+            <li>
+              <a class="footer__link link" href="https://travel.yandex.ru" target="_blank"
+                >Путешествия</a
+              >
+            </li>
+          </ul>
+        </nav>
         <p class="footer__copyright">© 2023. Бухаров Максим</p>
       </footer>
     </div>
