@@ -10,8 +10,3 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
-
-@font-face {
-  font-family: 'Inter', Helvetica, sans-serif;
-  src: url(/fonts/fonts.css);
-}
