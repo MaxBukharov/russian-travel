@@ -6,7 +6,7 @@
   margin: 0 48px 92px;
   padding: 0;
   width: calc(100% - 48px * 2);
-  background-image: url(../../../images/__background_baikal.png);
+  background-image: url(../../images/__background_baikal.png);
   background-size: cover;
   position: relative;
   min-height: 740px;
